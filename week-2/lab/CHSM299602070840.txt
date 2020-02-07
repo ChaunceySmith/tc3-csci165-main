@@ -1,0 +1,4 @@
+Invoice Number: CHSM299602070840
+Date: 02/07/2020
+Time: 08:40:34
+Total Charge =====> 68.92
