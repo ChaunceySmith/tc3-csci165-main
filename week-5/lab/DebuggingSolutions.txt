@@ -1,0 +1,27 @@
+						README
+Debugging Solutions
+1. The problem with the DebuggingExercise.java was the index was out of bounds.
+    I fixed the problem by using the basic debugger to see which values would exceed the array size.
+    I fixed the problem by increasing i + 1, so it isnt off by one.
+
+2. The problem was we needed to find the 49791 integer.
+    I fixed the problem lby using the debugger and setting the breakpoint with a hit count of 49791
+    There were no issues with the code, but rather just finding a specific int 2a84296c6a45c4734bbe39beebb670ea
+
+3. One of the problems was a ) was missing, so I added that. Another problem was it was printing one value off, so it was printing the 16th term not 15th.
+    I used the debugger to find that f0 was = 1, which made the second term 2, when it should have been one, also used a counter to keep track of these variables.
+    I figured out that f0 = 1 when it needed to = 0, so I fixed that and that solved the issue, I did this using a debugger and adding a counter.
+    
+4. The problem was that a certain grade was printing all sorts of results, when it only should be one print statement.
+    I used the debugger by seeing that if it was a high grade then all if statements would be true.
+    I fixed the issue by adding an && statement so that the grades could only print one value within a range.
+
+5. The first problem was a nullpointer exception when I tried to run the program. Those were the only problems.
+    I used the debugger to see that Account a was null so it couldnt have a balance becasue there was nothing there.
+    I fixed the issue by creating a new account in account a with a argument for the name so I could properly call the constructor.
+
+6. The error for person.java was that a class was not found.Also it could not find main method or class. You also spelled static wrong lol, also you never called getname.
+    I used the debugger to see that the return values were getting null and zero, so I could easily trace the problem
+    I fixed the issues by calling all of the methods, and spelling. Then I set the name and age to the global scale so it could be called by the getname and getage methods.
+
+    
